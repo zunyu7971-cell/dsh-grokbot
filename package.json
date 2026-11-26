@@ -5,6 +5,14 @@
   "type": "module",
   "license": "MIT",
   "author": "zunyu7971-cell",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zunyu7971-cell/dsh-grokbot.git"
+  },
+  "homepage": "https://github.com/zunyu7971-cell/dsh-grokbot#readme",
+  "bugs": {
+    "url": "https://github.com/zunyu7971-cell/dsh-grokbot/issues"
+  },
   "keywords": [
     "dsh",
     "dsh-plugin",
