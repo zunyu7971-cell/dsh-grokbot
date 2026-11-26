@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="Grokbot group chat">
+  <defs>
+    <linearGradient id="gb-bubble" x1="8" y1="6" x2="56" y2="58" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#4f7cff"/>
+      <stop offset="1" stop-color="#18b6a3"/>
+    </linearGradient>
+  </defs>
+  <rect x="2" y="2" width="60" height="60" rx="16" fill="#0f1420"/>
+  <path d="M14 20a8 8 0 0 1 8-8h20a8 8 0 0 1 8 8v14a8 8 0 0 1-8 8H30l-9 8v-8h-1a6 6 0 0 1-6-6z" fill="url(#gb-bubble)"/>
+  <circle cx="24" cy="27" r="3" fill="#0f1420"/>
+  <circle cx="32" cy="27" r="3" fill="#0f1420"/>
+  <circle cx="40" cy="27" r="3" fill="#0f1420"/>
+  <circle cx="46" cy="46" r="6" fill="#18b6a3" stroke="#0f1420" stroke-width="2"/>
+  <circle cx="53" cy="37" r="4" fill="#4f7cff" stroke="#0f1420" stroke-width="2"/>
+</svg>

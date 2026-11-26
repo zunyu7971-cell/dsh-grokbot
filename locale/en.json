@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Grokbot group chat",
+    "description": "Build a group chat from several models, post a task, and let a captain plan, members work in parallel, a reviewer check, and the captain deliver the final answer."
+  }
+}

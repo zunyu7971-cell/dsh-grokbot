@@ -1,0 +1,47 @@
+{
+  "name": "@local/dsh-grokbot",
+  "version": "1.1.0",
+  "description": "Grokbot-style multi-model group chat for DSH: put several models in one room, post a task, and let them plan, execute, review and summarize autonomously.",
+  "type": "module",
+  "license": "MIT",
+  "author": "zunyu7971-cell",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "bundle",
+    "multi-agent",
+    "grokbot",
+    "multi-model",
+    "orchestration"
+  ],
+  "icon": "./icon.svg",
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "icon.svg",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node --test test/engine.test.mjs",
+    "check": "node --check index.js && node --check client.js"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true,
+      "inject": []
+    }
+  }
+}

@@ -1,0 +1,6 @@
+# dsh-grokbot bundle patch: mounts the Host half.
+# The Client half (the group-chat workbench) is discovered from this package's
+# `dsh.client` declaration, so nothing else needs to be inserted here.
+- insert:
+    - id: grokbot
+      name: '@local/dsh-grokbot'
